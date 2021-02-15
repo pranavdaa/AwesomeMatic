@@ -1,0 +1,1 @@
+<p>&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> <strong>Matic</strong></p>

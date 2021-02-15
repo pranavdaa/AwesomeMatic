@@ -1,0 +1,173 @@
+/*** GLOBAL SETTING ***/
+body { background: #EAF0FD;color:#666; line-height:normal;font-size:16px;font-family: 'Poppins', sans-serif;}
+
+
+
+
+/* GLOBAL RESETS
+**********************************************************/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd,q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li, fieldset, form, label, legend{margin:0; padding:0; border:0; outline:0; resize:none}
+
+a, a:hover {text-decoration:none; outline:none}
+a:active, a:focus {outline:0} 
+img {border:none; vertical-align:-2px}
+
+/* DEFAULT FORM STYLING */
+input[type="radio"], input[type="checkbox"] {vertical-align:-2px}
+textarea {resize:none}
+input {visibility:visible; outline:none}
+
+/* INDIVIDUAL RESET */
+.reset {list-style:none; padding:0; margin:0}
+
+/* FLOATS */
+.lf {float:left} .rf {float:right}
+
+/* CLEAR FLOAT */
+.clear {clear:both; padding:0; margin:0; overflow:hidden; height:0}
+
+/* POSITION RELATIVE */
+.rel {position:relative}
+
+/* WIDTH 100% */
+.fullwid {width:100%}
+
+/* DISPLAY INLINE */
+.inline {display:inline}
+
+/* font SIZES */
+.vsmlTxt {font-size:10px}
+.smlTxt {font-size:11px}
+.paraTxt {font-size:12px}
+.bigTxt {font-size:14px}
+
+/*font WEIGHTS */
+.strong {font-weight:bold} 
+.normTxt, .normTxt a {font-weight:normal}
+
+/* OVERFLOW-HIDDEN */
+.ovfl-hidden {overflow:hidden}
+
+/* TEXT ALIGN */
+.centerAll {text-align:center}
+.rightAlign {text-align:right}
+.leftAlign {text-align:left}
+.justfy {text-align:justify}
+
+/* NO MARGIN */
+.nomargin {margin:0}
+.lftmargin {margin-left:0}
+.rgtmargin {margin-right:0}
+
+/*HTML5 Reset*/
+header,footer,aside,article,nav,hgroup,section {display:block}
+
+.error{color:#ff0000}
+
+
+
+.leftmenusec ,.menusec {width: 240px;}
+.leftmenusec {position: fixed;bottom: 0;top: 0;left: 0;background: #002B80;box-shadow: 0 0.2rem 0.5rem rgba(0,82,204,.5);}
+.leftmenusec a { color:#fff;}
+.leftmenusec ul {list-style-type:none;}
+
+.logosec {padding: 0 10PX;}
+.logosec a{font-weight: 700;color: #cce1ff;display: block;padding: 15px;}
+/*.logosec span.brand-primary{border: .05rem solid;border-radius: .2rem;font-size: 12PX;padding: .2rem .2rem;vertical-align: middle;display: inline-block;}
+.logosec span.brand-secondary {font-size: 16px;margin-left: 2px;vertical-align: middle;display: inline-block;}*/
+
+.mobnav {display: none;}
+
+.menusec {padding: 20px;position: fixed;top: 80px;bottom: 0;overflow: auto;left: 0;box-sizing: border-box;}
+.menusec ul li a { display:block; padding:5px 10px; font-size:16px; font-weight:700;}
+.menusec ul li ul { padding:16px 12px;}
+.menusec ul li { margin-bottom:10px;}
+.menusec ul li ul li { margin-bottom:00px;}
+.menusec ul li ul li a { font-weight:normal; font-size:14px; padding:8px;color: rgba(255,255,255,.75);transition: 0.4s;} 
+.menusec ul li ul li a:hover {color: rgba(255,255,255,.55);}
+
+.rightcontentsec {margin-left: 240px;}
+.rightcontentsec .hero-content { padding:50px 0;}
+.rightcontentsec .hero-content h1 { font-size:28px; color: #333;}
+.rightcontentsec .hero-content h2 { font-size:14px; font-weight:500; margin-top:10px;color: #404040;}
+.container {width: 976px;margin: 0 auto;}
+.rightcontentsec ul { list-style-type:none; margin:-16px;display: flex;flex-wrap: wrap;}
+.rightcontentsec ul li {display:inline-block;vertical-align:top;width:33.33%;box-sizing: border-box;padding:16px; }
+.rightcontentsec ul li a{ padding:20px; display:block;background: #fff;border-radius: 8px;color: #333;transition: box-shadow .2s ease-in-out,transform .2s ease-in-out;height: 100%;box-sizing: border-box; box-shadow: 0 0.5rem 1rem rgba(51,51,51,.1);}
+.rightcontentsec ul li a:hover{box-shadow: 0 0.5rem 1rem rgba(51,51,51,.1);text-decoration: none;transform: translateY(-.1rem);}
+.rightcontentsec ul li img { max-width:100%; }
+.rightcontentsec ul li svg{background: #3b3b3b;border-radius: 50%;color: #fff;height: 1rem;padding: .2rem;width: 1rem;}
+.rightcontentsec ul li .listlefticon { width:56px; float:left;text-align:center;}
+.rightcontentsec ul li .rightcontent {overflow: hidden;padding-left: 16px;}
+.rightcontentsec ul li .rightcontent h2 { color:#333;font-weight: 700;overflow: hidden;text-overflow: ellipsis;white-space: nowrap; font-size:18px; margin-bottom:9px;}
+.rightcontentsec ul li .rightcontent h3 {color: #666;font-weight:400;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 4; margin-bottom:7px; font-size:13px; }
+.rightcontentsec ul li .rightcontent .socialicons{ margin-top:10px;}
+.rightcontentsec ul li .rightcontent .titletag span {background: #f4f5f7;border-radius: 8px;color: #999;display: inline-block;margin-bottom: 5px;padding: 3px 7px; font-size:12px;}
+
+.copyrightsec { padding:20px 0; margin-top:20px;font-size: 14px;color: #404040;}
+.copyrightsec a{color: #333;}
+.copyrightsec .dividerspace { margin:0 8px;}
+
+
+
+@media only screen and ( max-width: 1280px ) {
+.container { width:96%;}
+.rightcontentsec ul li .listlefticon {margin-bottom: 20px;float: none;}
+.rightcontentsec ul li .rightcontent {padding-left: 0;}	
+}
+@media only screen and ( max-width: 1024px ) {
+}
+@media only screen and ( max-width: 980px ) {
+}
+@media only screen and ( max-width: 800px ) {
+.rightcontentsec ul { display:block; margin:0;}	
+.rightcontentsec ul li { display:block; width:auto; padding:8px;}	
+}
+@media only screen and ( max-width: 768px ) {
+}
+@media only screen and ( max-width: 736px ) {
+}
+@media only screen and ( max-width: 667px ) {
+}
+@media only screen and ( max-width: 640px ) {
+}
+@media only screen and ( max-width: 600px ) {
+
+.menu_overlay {  display: none;position: fixed;/*background: rgba(0,0,0,0.4);*/top: 0%;left: 0%;width: 100%;height: 100%;z-index: 1;}
+.mobilemenu {position: fixed;left: 0; right:0; bottom:0; top:0;width: auto;box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.10);padding: 10px;z-index: 2;transform: translate(0,-100%);transition: all .3s cubic-bezier(.29,.39,.68,.53);-webkit-transition: all .3s cubic-bezier(.29,.39,.68,.53);}
+.menuOpened .menu_overlay {display: block;}
+.menuOpened .mobilemenu {transform: translate(0,0);transition: all .3s cubic-bezier(.29,.39,.68,.53);-webkit-transition: all .3s cubic-bezier(.29,.39,.68,.53);left: 10px; right:10px; bottom:30px; top:80px;width: auto; background: #002B80;box-shadow: 0 0.2rem 0.5rem rgba(0,82,204,.5);border-radius:8px;}
+
+.leftmenusec {top:10px;left: 10px;right: 10px;width: auto;bottom: inherit;box-shadow: 0 0.2rem 1rem rgba(0,82,204,.5);border-radius:8px; z-index:9;}
+.logosec { float:left;}
+.logosec a { padding:0px;}
+.logosec a svg { vertical-align:middle;}
+.mobnav {display: block;float: right;width: 20px;height: 20px;margin-top: 20px;margin-right: 10px; }
+.mobnav a{position:relative;}
+.mobnav a:before{background: currentColor;box-shadow: 0 0.3rem, 0.3rem 0, 0.3rem 0.3rem, 0 0.6rem;content: "";height: .1rem;left: .05rem;position: absolute;top: .15rem;width: .6rem;}
+
+.rightcontentsec .hero-content {padding: 110px 0 40px;}
+
+.rightcontentsec { margin-left:0;}
+.rightcontentsec ul li .listlefticon {margin-bottom: 0px;float: left;}
+.rightcontentsec ul li .rightcontent { padding-left:10px;}
+
+
+}
+@media only screen and ( max-width: 568px ) {
+}
+@media only screen and ( max-width: 480px ) {
+}
+@media only screen and ( max-width: 414px ) {
+
+.rightcontentsec .hero-content h1 {font-size: 24px;}
+	
+}
+@media only screen and ( max-width: 384px ) {
+}
+@media only screen and ( max-width: 375px ) {
+}
+@media only screen and ( max-width: 360px ) {
+}
+@media only screen and ( max-width: 320px ) {
+}
